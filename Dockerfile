@@ -15,7 +15,7 @@ RUN npm install
 # 나머스 소스 추가 / 이미지 복사
 COPY . .
 
-# post를 연결하는 방법  
+# post를 연결하는 방법   외부포트 ????번으로 들어올 때 내부포트 8080 연결이 되도록 설정
 EXPOSE 8080
 
 CMD [ "npm", "start" ]
